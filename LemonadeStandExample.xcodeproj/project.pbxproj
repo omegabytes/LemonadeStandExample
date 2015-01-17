@@ -13,6 +13,8 @@
 		DD983D0F1A617093001ECBDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD983D0E1A617093001ECBDA /* Images.xcassets */; };
 		DD983D121A617093001ECBDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD983D101A617093001ECBDA /* LaunchScreen.xib */; };
 		DD983D1E1A617093001ECBDA /* LemonadeStandExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD983D1D1A617093001ECBDA /* LemonadeStandExampleTests.swift */; };
+		DD983D281A617CD6001ECBDA /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD983D271A617CD6001ECBDA /* Supplies.swift */; };
+		DD983D2A1A61811A001ECBDA /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD983D291A61811A001ECBDA /* Price.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		DD983D171A617093001ECBDA /* LemonadeStandExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD983D1C1A617093001ECBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD983D1D1A617093001ECBDA /* LemonadeStandExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandExampleTests.swift; sourceTree = "<group>"; };
+		DD983D271A617CD6001ECBDA /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
+		DD983D291A61811A001ECBDA /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				DD983D071A617093001ECBDA /* AppDelegate.swift */,
 				DD983D091A617093001ECBDA /* ViewController.swift */,
+				DD983D271A617CD6001ECBDA /* Supplies.swift */,
+				DD983D291A61811A001ECBDA /* Price.swift */,
 				DD983D0B1A617093001ECBDA /* Main.storyboard */,
 				DD983D0E1A617093001ECBDA /* Images.xcassets */,
 				DD983D101A617093001ECBDA /* LaunchScreen.xib */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD983D0A1A617093001ECBDA /* ViewController.swift in Sources */,
+				DD983D2A1A61811A001ECBDA /* Price.swift in Sources */,
+				DD983D281A617CD6001ECBDA /* Supplies.swift in Sources */,
 				DD983D081A617093001ECBDA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
